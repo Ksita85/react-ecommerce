@@ -37,7 +37,7 @@ function NavbarComponent() {
       <Navbar expand="sm" className="p-3 border-bottom ">
       <Navbar.Brand href="/" className='fs-3 fw-bold text-primary'>Coffee Shop</Navbar.Brand>
         <Navbar.Collapse className="justify-content-end">
-          <a onClick={handleShow} className="text-primary fw-bold cart"><FaShoppingCart className='fs-1'/></a><Badge pill bg="danger"> {productCount} </Badge>
+          <Button onClick={handleShow} className="btn btn-link btn-light fw-bold"><FaShoppingCart className='fs-1'/></Button><Badge pill bg="danger"> {productCount} </Badge>
             </Navbar.Collapse>
       </Navbar>
       <Modal show={show} onHide={handleClose}>

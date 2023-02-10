@@ -1,4 +1,4 @@
-import { Card, Button, Row, Col, Form } from 'react-bootstrap';
+import { Card, Row, Col, Form } from 'react-bootstrap';
 import { CartContext } from '../CartContext';
 import { FaTrashAlt, FaCartPlus } from "react-icons/fa";
 import { useContext } from 'react';
